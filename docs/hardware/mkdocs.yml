@@ -1,0 +1,15 @@
+site_name: Kevinbot Hardware
+
+nav:
+  - Home: 'index.md'
+  - Chassis: 'drivebase.md'
+  - Frame: 'frame.md'
+  - Electronics: 'elec.md'
+  - Arms: 'arms.md'
+  - Head: 'head.md'
+  - Sides: 'sides.md'
+
+theme:
+  name: mkdocs
+  user_color_mode_toggle: True
+  color_mode: auto
