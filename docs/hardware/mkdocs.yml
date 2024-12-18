@@ -2,14 +2,50 @@ site_name: Kevinbot Hardware
 
 nav:
   - Home: 'index.md'
-  - Chassis: 'drivebase.md'
+  - Chassis: 'chassis.md'
   - Frame: 'frame.md'
-  - Electronics: 'elec.md'
+  - Electronics: 'electronics.md'
   - Arms: 'arms.md'
   - Head: 'head.md'
   - Sides: 'sides.md'
 
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.sections 
+
 theme:
-  name: mkdocs
+  name: material
   user_color_mode_toggle: True
   color_mode: auto
+  logo: assets/icon.svg
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+
+
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
