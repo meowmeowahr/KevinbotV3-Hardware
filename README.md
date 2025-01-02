@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/icon.svg" alt="Kevinbot v3 logo" width=120/>
+  <img src="readme/icon.svg" alt="Kevinbot v3 logo" width=120/>
 </p>
 
 # Kevinbot v3 Hardware
